@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: $font-stack;
+    font-size: 14px;
+    color: $default-color;
+    overflow-x: hidden;
+}
+%section-padding,
+.section-padding{
+    padding-top: 95px;
+    padding-bottom: 100px;
+}
+.pt_95{
+    padding-top: 95px;  
+}
+.pdr_0 {
+    padding-right: 0;
+}
+.pdl_0 {
+    padding-left: 0;
+}

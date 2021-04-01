@@ -1,0 +1,13 @@
+.owl-item:first-child .item {
+    background: url(../images/slide-1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+}
+
+.owl-item:nth-child(2) .item {
+    background: url(../images/slide-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+}

@@ -1,0 +1,114 @@
+.footer-top{
+    background-color: $bg-black;
+    color:$white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    &-content{
+        h5{
+            font-size: 24px;
+            font-weight: 500;
+            padding-top: 22px;
+        }
+        &-planet{
+            
+            p{
+                margin-top: 30px;
+            }
+            button{
+                background-color:$red;              
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-transform: uppercase;
+                border: none;
+                text-decoration: none; 
+                border-radius: 15px 0px;               
+                font-size: 14px;
+                margin: 4px 2px;
+               
+            }
+            .footer-top-content-header{
+                padding-bottom: 20PX;
+            }
+        }
+        &-header{
+            padding-bottom: 10PX;
+            position: relative;
+            &::after{
+                content: "";
+                position: absolute;
+                width: 68px;
+                height: 1px;
+                background: #5d5864;
+                bottom: 0;
+                left: 0;
+            }
+        }
+
+        &-link{
+            &-list{
+                padding-top: 34px;
+                ul li{
+                    width: 49%;
+                    display: inline-block;
+                    padding: 5px;
+                }
+            }
+        }
+
+        &-address{
+            &-remember {
+                padding-top:34px;
+                ul li {
+                    display: inline;
+                    
+                }
+                i{
+                    float:left;
+                    padding-right:15px
+                }
+                p{
+                    display: table;
+                }
+                a{
+                    color: $white;
+                }
+            }
+
+        }
+        &-instragram{
+            &-snap{
+                padding-top: 34px;
+                &-images{
+                    li{
+                        display: inline-block;
+                        margin: 0 2px 5px 0;
+                    }
+                }
+
+            }
+        }
+
+    }
+    
+}
+.copy-right{
+    background-color: $ft-bg-color;
+    &-content{
+        color:$white;
+        padding-top: 12px;
+        &-text{
+            text-align: left;
+        }
+        &-icon{
+            text-align: right;
+            i{
+                padding: 10px;
+            }
+            ul li{
+                display: inline;
+            }
+        }
+
+    }
+}
